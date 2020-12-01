@@ -14,7 +14,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: eshop-productservice
-        image: eshop-productservice
+        image: gcr.io/msa-archi/41/eshop-productservice:1
         ports:
         - containerPort: 8092
         env:
